@@ -22,7 +22,7 @@
 
 {
     'name': 'Customer Portfolio MFH',
-    'version': '1.0.0',
+    'version': '10.0.0',
     'category': 'Sale',
     'maintainer': 'Falcon Solutions',
     'website': 'http://www.falconsolutions.cl',
