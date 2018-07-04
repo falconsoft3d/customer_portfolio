@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="sale_customer_portfolio_form" model="ir.ui.view">
+        <field name="name">sale.customer.portfolio.form</field>
+        <field name="model">sale.customer.portfolio</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <div class="oe_title">
+                        <label for="name" class="oe_edit_only"/>
+                        <h1><field name="name"/></h1>
+                    </div>
+                    <group name="first" col="2">
+                        <field name="user_id" class="oe_inline"/>
+                    </group>
+            
+                    <field name="portfolio_lines" nolabel="1">
+                         <tree string="Coverage" editable="bottom"> 
+                            <field name="res_partner" domain="[('customer','=', True)]"/>
+                        </tree>
+                    </field>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="sale_customer_portfolio_tree" model="ir.ui.view">
+        <field name="name">sale.customer.portfolio.tree</field>
+        <field name="model">sale.customer.portfolio</field>
+        <field name="arch" type="xml">
+            <tree string="Customer Portfolio">                  
+                <field name="name"/>
+                <field name="user_id"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="sale_customer_portfolio_action" model="ir.actions.act_window">
+        <field name="name">Customer Portfolio</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">sale.customer.portfolio</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="sale_customer_portfolio_form" />
+    </record>
+
+    <menuitem id="menu_customer_portfolio" name="Customer Portfolio" parent="sale.product_menu_catalog" action="sale_customer_portfolio_action" groups="sales_team.group_sale_manager"/>
+
+</odoo>

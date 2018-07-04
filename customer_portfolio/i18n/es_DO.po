@@ -1,0 +1,111 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* customer_portfolio
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-01 03:46+0000\n"
+"PO-Revision-Date: 2018-07-01 03:46+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: customer_portfolio
+#: sql_constraint:sale.customer.portfolio.lines:0
+msgid "A client can not belong to more than one portfolio!"
+msgstr "Un cliente no puede pertenecer a más de una cartera!"
+
+#. module: customer_portfolio
+#: model:ir.ui.view,arch_db:customer_portfolio.sale_customer_portfolio_form
+msgid "Coverage"
+msgstr "Cobertura"
+
+#. module: customer_portfolio
+#: model:ir.model.fields,field_description:customer_portfolio.field_sale_customer_portfolio_create_uid
+#: model:ir.model.fields,field_description:customer_portfolio.field_sale_customer_portfolio_lines_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: customer_portfolio
+#: model:ir.model.fields,field_description:customer_portfolio.field_sale_customer_portfolio_create_date
+#: model:ir.model.fields,field_description:customer_portfolio.field_sale_customer_portfolio_lines_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: customer_portfolio
+#: model:ir.model.fields,field_description:customer_portfolio.field_sale_customer_portfolio_lines_res_partner
+msgid "Customer"
+msgstr "Clientes"
+
+#. module: customer_portfolio
+#: model:ir.actions.act_window,name:customer_portfolio.sale_customer_portfolio_action
+#: model:ir.ui.menu,name:customer_portfolio.menu_customer_portfolio
+#: model:ir.ui.view,arch_db:customer_portfolio.sale_customer_portfolio_tree
+msgid "Customer Portfolio"
+msgstr "Cartera de Clientes"
+
+#. module: customer_portfolio
+#: model:ir.model.fields,field_description:customer_portfolio.field_sale_customer_portfolio_portfolio_lines
+msgid "Customers"
+msgstr "Clientes"
+
+#. module: customer_portfolio
+#: model:ir.model.fields,field_description:customer_portfolio.field_sale_customer_portfolio_display_name
+#: model:ir.model.fields,field_description:customer_portfolio.field_sale_customer_portfolio_lines_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: customer_portfolio
+#: model:ir.model.fields,field_description:customer_portfolio.field_sale_customer_portfolio_id
+#: model:ir.model.fields,field_description:customer_portfolio.field_sale_customer_portfolio_lines_id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: customer_portfolio
+#: model:ir.model.fields,field_description:customer_portfolio.field_sale_customer_portfolio___last_update
+#: model:ir.model.fields,field_description:customer_portfolio.field_sale_customer_portfolio_lines___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: customer_portfolio
+#: model:ir.model.fields,field_description:customer_portfolio.field_sale_customer_portfolio_lines_write_uid
+#: model:ir.model.fields,field_description:customer_portfolio.field_sale_customer_portfolio_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: customer_portfolio
+#: model:ir.model.fields,field_description:customer_portfolio.field_sale_customer_portfolio_lines_write_date
+#: model:ir.model.fields,field_description:customer_portfolio.field_sale_customer_portfolio_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: customer_portfolio
+#: model:ir.model.fields,field_description:customer_portfolio.field_sale_customer_portfolio_lines_portfolio_id
+msgid "Portfolio"
+msgstr "Cartera"
+
+#. module: customer_portfolio
+#: model:ir.model.fields,field_description:customer_portfolio.field_sale_customer_portfolio_name
+msgid "Portfolio name"
+msgstr "Nombre"
+
+#. module: customer_portfolio
+#: model:ir.model.fields,field_description:customer_portfolio.field_sale_customer_portfolio_user_id
+msgid "Salesperson"
+msgstr "Vendedor"
+
+#. module: customer_portfolio
+#: model:ir.model,name:customer_portfolio.model_sale_customer_portfolio
+msgid "sale.customer.portfolio"
+msgstr "sale.customer.portfolio"
+
+#. module: customer_portfolio
+#: model:ir.model,name:customer_portfolio.model_sale_customer_portfolio_lines
+msgid "sale.customer.portfolio.lines"
+msgstr "sale.customer.portfolio.lines"
+
